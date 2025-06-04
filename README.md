@@ -3,12 +3,14 @@ Cookie-cutter template for a basic Python project set-up, with boilerplate inclu
 
 ## How to Use 🔧
 ### Using Cookiecutter ✂️
-There are several ways of using Cookiecutter templates, a quickstart guide can be found here: https://github.com/cookiecutter/cookiecutter
+There are several ways of using Cookiecutter templates, a quickstart guide can be found here: [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
 Once cookiecutter is installed, you can create a new project based on a template from a local template using:
 - ```$ cookiecutter <path_to_template_folder>```
+
 Or from a remote template using:
 - ```$ cookiecutter <template_github_url>```
+
 And if using a uv environment with cookiecutter installed, you can run:
 - ```$ uv run cookiecutter <template_path_or_github_url>```
 
@@ -16,7 +18,7 @@ This should then prompt you to enter the details of your new repo. These should 
 
 ## Features 🏗️
 The new project will be fairly minimal, but does include the following:
-- Github actions CI including linting, formatting, import sorting and type checking 🔀
+- Github actions CI incl. linting, formatting, import sorting and type checking 🔀
 - Pre-commit config with hooks matching CI 🪝
 - README.md with project title and description 📖
 - .gitignore with standard files ignored 🚫
